@@ -1,0 +1,23 @@
+.image{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img-div{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#image{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 220px;
+}
