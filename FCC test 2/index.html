@@ -8,9 +8,39 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 id="title">Survey form</h1>
+            <div class="header_text">
+                <h1 id="title">Survey form</h1>
+                <p id="description">freeCodeCamp.org tribute</p>
+            </div>
         </div>
     </header>
+
+    <section class="main">
+        <div class="container">
+            <form action="/" method="post" id="survey-form">
+
+                <div class="group name_group">
+                    <input class="text-input" type="text" id="name" placeholder="Your name" required>
+                    <label id="name-label" for="name">Name</label>
+                </div>
+
+                <div class="group e-mail_group">
+                    
+                    <input class="text-input" type="text" id="email" placeholder="Your e-mail" required>
+                    <label id="email-label" for="email">E-mail</label>
+
+                </div>
+
+                <div class="group number_group">
+                    
+                    <input class="text-input" type="text" id="number" placeholder="Your number" required>
+                    <label id="number-label" for="number">Number</label>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>
