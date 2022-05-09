@@ -26,17 +26,64 @@
 
                 <div class="group e-mail_group">
                     
-                    <input class="text-input" type="text" id="email" placeholder="Your e-mail" required>
+                    <input class="text-input" type="email" id="email" placeholder="Your e-mail" required>
                     <label id="email-label" for="email">E-mail</label>
 
                 </div>
 
                 <div class="group number_group">
                     
-                    <input class="text-input" type="text" id="number" placeholder="Your number" required>
+                    <input class="text-input" type="number" min="70000000000" max="99999999999" id="number" placeholder="Your number" required>
                     <label id="number-label" for="number">Number</label>
 
                 </div>
+
+                <div class="group select-form">
+
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <select name="" id="dropdown">
+                        <option value="challenges">Challenges</option>
+                        <option value="coding">Coding</option>
+                        <option value="community">Community</option>
+                        <option value="career">Career</option>
+                    </select>
+
+                </div>
+
+                <div class="group radio_group">
+
+                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <label for="">
+                        <input type="radio" name="recommend" id="" value="yes">Yes
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="recommend" id="" value="no">No
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="recommend" id="" value="maybe">Maybe
+                    </label>
+
+                </div>
+
+                <div class="group checkbox_group">
+
+                    <p>What would you like to see more on freeCodeCamp?</p>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="frontend">Frontend
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="backend">Backend
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="" id="" value="data science">Data Science
+                    </label>
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10">For comments</textarea>
+
+                <button type="submit" id="submit"></button>
 
             </form>
         </div>
